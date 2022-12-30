@@ -49,6 +49,11 @@ const carritoo =[
 let total = carritoo.reduce((accum, p) => {return accum + p.precio;}, 0 ); 
 console.log (total);
 
+let nuevoBoton = document.createElement("button");
+nuevoBoton.setAttribute("class", "btn btn-danger");
+nuevoBoton.textContent = "Agregar al carrito";
+
+doocument.querySelector("#carritoo").appendChild(nuevoBoton)
 
 
 

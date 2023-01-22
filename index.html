@@ -13,20 +13,34 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">TIENDA HOLÍSTICA 🕉</a>
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Mi carrito 🛒</button>
+            <button class="btn btn-secondary my-3 my-sm-0" type="submit">
+              <span id="cantidad-carrito"> </span>
+              <span>Mi carrito 🛒</span>
+            </button>
             </form>
         </div>
         </div>
     </nav>
-    <hr>
-    <h2>Mat de Yoga</h2>
-    <button type="button" class="btn btn-primary">Agregar al carrito</button>
-    <h2>Bhagavad-Gita</h2>
-    <button type="button" class="btn btn-secondary">Agregar al carrito</button>
-    <h2>Japa Mala</h2>
-    <button type="button" class="btn btn-success">Agregar al carrito</button>
 
-    <hr>
+
+
+    <div id="products-list" class="d-flex p-2">
+
+    </div>
+
+
+
+    <div id="resumen-de-compra" class="d-flex p-2" style="display:flex; flex-direction: column;">
+      <h1>Carrito de compra:</h1>
+      <hr/>
+      <div id="resumen-de-compra-lista-de-productos"class="d-flex p-2" >
+
+      </div>
+      <hr/>
+      <div>       
+        <h1 id="resument-total"></h1>
+      </div>
+    </div>
 
     <form>
           <div class="form-group">
@@ -38,9 +52,9 @@
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             <button type="button" class="btn btn-success">Enviar</button>
           </div>
-          
+
           <div class="form-group">
-           
+
       </form>
 
 

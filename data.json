@@ -1,6 +1,5 @@
-{"nombre": "JapaMala", "boolean": false,
-"unidades":20,
-"nombre": "MatDeYoga", "boolean":false,
-"unidades": 10,
-"nombre": "BhagavadGita", "boolean": false,
- "unidades":30}
+{
+  "nombre": "JapaMala",
+  "boolean": false,
+  "unidades": 20
+}

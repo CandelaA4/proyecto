@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/item.css" />
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/node-snackbar@latest/src/js/snackbar.min.js"
@@ -22,14 +22,32 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">TIENDA HOLÍSTICA 🕉</a>
-        <div id="shopping-cart"></div>        
+        <div id="shopping-cart"></div>
       </div>
     </nav>
-    <div id="products-list"></div>
+    <h1>Lista de compra</h1>
+    <div class="center">
+      <div class="shopping_cart_container">
+        <div class="shopping_cart_container_common shopping_cart_container_left" id="products-list">
+        
+        </div>
+        <div
+          class="shopping_cart_container_common shopping_cart_container_right"
+        >
+          <h1>Resumen</h1>
+          <div id="shopping_cart_resume"></div>
+          <div id="shopping_cart_btn"></div>
+        </div>
+      </div>
+    </div>
     <script src="./components/shopping_cart.js"></script>
     <script src="./components/button.js"></script>
+    <script src="./components/resummen.js"></script>
+    <script src="./components/button_buy.js"></script>
+    <script src="./components/item.js"></script>
     <script src="./js/common/store.js"></script>
-    <script src="./js/common/carrito.js"></script>    
-    <script src="./js/app/index.js"></script>
+    <script src="./js/common/time.js"></script>
+    <script src="./js/common/carrito.js"></script>
+    <script src="./js/carrito/index.js"></script>
   </body>
 </html>

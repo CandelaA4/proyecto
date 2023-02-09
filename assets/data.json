@@ -1,6 +1,38 @@
 [
-  { "id": "1", "nombre": "JapaMala", "precio": 2000 },
-  { "id": "2", "nombre": "MatDeYoga", "precio": 3000 },
-  { "id": "3", "nombre": "BhagavadGita-1", "precio": 1000 },
-  { "id": "4", "nombre": "BhagavadGita-2", "precio": 200 }
+  {
+    "id": "1",
+    "imgUrl": "https://d368r8jqz0fwvm.cloudfront.net/37553-product_lg/colchoneta-mat-basic.jpg",
+    "productName": "JapaMala",
+    "price": 2000
+  },
+  {
+    "id": "2",
+    "imgUrl": "https://d368r8jqz0fwvm.cloudfront.net/37553-product_lg/colchoneta-mat-basic.jpg",
+    "productName": "MatDeYoga",
+    "price": 3000
+  },
+  {
+    "id": "3",
+    "imgUrl": "https://d368r8jqz0fwvm.cloudfront.net/37553-product_lg/colchoneta-mat-basic.jpg",
+    "productName": "BhagavadGita-1",
+    "price": 1000
+  },
+  {
+    "id": "4",
+    "imgUrl": "https://d368r8jqz0fwvm.cloudfront.net/37553-product_lg/colchoneta-mat-basic.jpg",
+    "productName": "BhagavadGita-2",
+    "price": 200
+  },
+  {
+    "id": "4",
+    "imgUrl": "https://d368r8jqz0fwvm.cloudfront.net/37553-product_lg/colchoneta-mat-basic.jpg",
+    "productName": "BhagavadGita-2",
+    "price": 200
+  },
+  {
+    "id": "4",
+    "imgUrl": "https://d368r8jqz0fwvm.cloudfront.net/37553-product_lg/colchoneta-mat-basic.jpg",
+    "productName": "BhagavadGita-2",
+    "price": 200
+  }
 ]

@@ -14,7 +14,8 @@ const shoppingCartComponent = new ShoppingCartComponent(shoppingCart);
 const shoppingCartResumen = new ShoppingCartResumen(shoppingCart);
 const buttonBuy = new ButtonBuy(handleOnCLickButtonBuy);
 
-//2) renderizar en una lista la data del store
+
+//2) agregar productos al carrito
 const handleOnClick = (product) => {
   shoppingCart.removeProduct(product.id);
   shoppingCartResumen.updateElement();
@@ -22,6 +23,7 @@ const handleOnClick = (product) => {
   renderData();
 };
 
+//2) renderizar en una lista la data del store
 const renderData = () => {
   const list = document.getElementById("products-list");
   list.innerHTML = "";
@@ -32,15 +34,11 @@ const renderData = () => {
   });
 };
 
-//3) agregar productos al carrito
+
 
 //4) crear un boton carrito que se vaya actualizando
 const updateShoppinCart = () => {
   shoppingCartComponent.updateElement();
 };
 
-//5) crear una pagina de detalle de carrito
-//6) renderizar la lista de carrito
-//7) tener la posiblidad de eliminar el carrito
-//8) finalizar compra.
 renderData();
